@@ -22,6 +22,8 @@ terraform apply
 You'll need a `terraform.tfvars` (gitignored) with:
 ```
 db_admin_password = "your-password-here"
+ssh_public_key_path = "your-path-here"
+my_ip = "your_local_ip_here"
 ```
 
 ## Region constraint
